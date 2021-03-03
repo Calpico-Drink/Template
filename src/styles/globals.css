@@ -1,0 +1,23 @@
+:root {
+  --primary: rgb(30, 30, 30);
+  --primary-offset: rgb(25, 25, 25);
+  --secondary: white;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

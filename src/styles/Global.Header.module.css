@@ -1,0 +1,8 @@
+.Header {
+    height: 10vh;
+    width: 100%;
+    background: var(--primary-offset);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
