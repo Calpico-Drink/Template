@@ -17,9 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": "src",
     "paths": {
+        "@components/*": ["components/*"],
         "@public/*": ["../public/*"],
-        "@comp/*": ["components/*"],
         "@styles/*": ["styles/*"],
         "@api/*": ["pages/api/*"],
         "@pages/*": ["pages/*"],
@@ -30,7 +31,9 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx"
   ],
   "exclude": [
     "node_modules"
