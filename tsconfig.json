@@ -25,7 +25,8 @@
         "@api/*": ["pages/api/*"],
         "@pages/*": ["pages/*"],
         "@util/*": ["util/*"],
-        "@lib/*": ["lib/*"]
+        "@lib/*": ["lib/*"],
+        "@src/*": ["/*"]
     }
   },
   "include": [
