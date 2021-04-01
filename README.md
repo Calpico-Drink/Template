@@ -1,4 +1,4 @@
-# This is a [NextJS](https://nextjs.org/) Template
+# This is a [NextJS](https://nextjs.org/) template for my stuff
 
 ## Getting Started
 
