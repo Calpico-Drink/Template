@@ -7,7 +7,7 @@ type Meta = {
     Description: string,
     URL: string,
     Image: string,
-    PWA: bool
+    PWA: boolean
 }
 
 let MetaData: Meta = {
