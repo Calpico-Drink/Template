@@ -1,0 +1,11 @@
+{
+	"dark": {
+		"primary": 1,
+		"secondary": 2
+	},
+	
+	"light": {
+		"primary": 1,
+		"secondary": 2
+	}
+}

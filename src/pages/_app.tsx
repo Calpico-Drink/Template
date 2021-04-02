@@ -1,7 +1,7 @@
 import '@styles/globals.css'
 import Head from 'next/head'
 
-import { MetaData } from '../config'
+import { MetaData } from '@src/config'
 import Header from '@components/Global/Header'
 import Footer from '@components/Global/Footer'
 import Main from '@styles/Global.Main.module.css'
@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>{MetaData.Title}</title>
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <Header />
       <main className={Main.Main}>
