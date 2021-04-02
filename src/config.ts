@@ -6,16 +6,14 @@ type Meta = {
     Title: string,
     Description: string,
     URL: string,
-    Image: string,
-    PWA: boolean
+    Image: string
 }
 
 let MetaData: Meta = {
     Title: 'Template',
     Description: 'Just a template.',
     URL: 'https://template-liard.vercel.app/',
-    Image: '/Logo.png',
-    PWA: true
+    Image: '/Logo.png'
 }
 
 let ConfigData: Config = {
