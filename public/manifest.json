@@ -2,7 +2,7 @@
   "name": "NextJS Template",
   "short_name": "Template",
   "theme_color": "#ffffff",
-  "background_color": "#004740",
+  "background_color": "rgb(30, 30, 30)",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
