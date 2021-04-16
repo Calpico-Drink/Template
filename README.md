@@ -5,7 +5,7 @@
 How to use:
 1. Clone Repo:
 ```bash
-git clone https://github.com/Calpico-Drink/Template
+git clone https://github.com/Calpico-Drink/NextJS-Template
 ```
 2. Edit Configuration: `src/config.ts`
 
